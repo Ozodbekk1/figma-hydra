@@ -3,6 +3,7 @@ body{
     padding: 0;
     scroll-behavior: smooth;
     color: aliceblue;
+    background-color: #302C42;
 }
 
 ::root{

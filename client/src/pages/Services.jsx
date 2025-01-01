@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className=" bg-primary">
+    <div className="">
       <h1>
         Services
       </h1>

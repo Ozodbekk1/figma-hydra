@@ -1,6 +1,6 @@
 const Technologies = () => {
   return (
-    <div className=" bg-primary">
+    <div className="">
       <h1>
         Technologies
       </h1>

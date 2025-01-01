@@ -12,11 +12,12 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Homeburger from "../../public/imgs/image.png";
+import './pages.css'
 
 const Header = () => {
   return (
     <>
-      <div className="sm:block md:hidden bg-primary">
+      <div className="sm:block md:hidden ">
         <div  className="flex flex-row gap-5 px-4 py-3 items-center">
           <a href="/">
             <img src={vector} alt="logo" />
@@ -41,7 +42,7 @@ const Header = () => {
         </Sheet>
       </div>
       <div className="hidden sm:hidden md:block">
-        <div className="flex flex-row gap-4 items-center justify-center justify-around py-4 px-4 bg-primary text-white">
+        <div className="flex flex-row gap-4 items-center justify-center justify-around py-4 px-4 text-white">
           <div className="flex flex-row gap-4">
             <a href="/">
               <img src={vector} alt="logo" />
@@ -54,8 +55,8 @@ const Header = () => {
             <a className="font-bold" href={<Technologies />}>Technologies</a>
           </div>
           <div className="flex gap-6">
-            <Button>Contact us</Button>
-            <Button>Join HYDRA</Button>
+            <Button className='buttonHero rounded-full'>Contact us</Button>
+            <Button className='buttonHero rounded-full'>Join HYDRA</Button>
           </div>
         </div>
       </div>
