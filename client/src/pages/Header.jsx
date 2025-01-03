@@ -34,7 +34,7 @@ const Header = () => {
             <SheetHeader>
               <SheetTitle className='flex flex-col gap-6 justify-center items-center'>
                 <a className="font-bold" href={<About />}>About</a>
-                <a className="font-bold" href={<Services />}>services</a>
+                <a className="font-bold" href={<Services/>}>services</a>
                 <a className="font-bold" href={<Technologies />}>Technologies</a>
               </SheetTitle>
             </SheetHeader>

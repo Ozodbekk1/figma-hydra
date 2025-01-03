@@ -25,3 +25,18 @@
 .caruselDetails{
     background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100% / var(--carouselBg));
 }
+.about-image{
+    border-style: none;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 150px;
+}
+.cards{
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+
+}
+.cardButton{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 100px;
+}
