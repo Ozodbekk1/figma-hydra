@@ -2,7 +2,7 @@ import img from "../../public/imgs/Frame.png";
 import vector from "../../public/imgs/Vector.png";
 import About from "./About.jsx";
 import Services from "./Services.jsx";
-import Technologies from "./Technologies.jsx";
+import Technologies  from "./Technologies.jsx";
 import { Button } from "../components/ui/button.jsx";
 import {
   Sheet,
@@ -13,11 +13,12 @@ import {
 } from "@/components/ui/sheet";
 import Homeburger from "../../public/imgs/image.png";
 import './pages.css'
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
-      <div className="sm:block md:hidden ">
+      <div className="sm:block md:hidden outlinesContainer ">
         <div  className="flex flex-row gap-5 px-4 py-3 items-center">
           <a href="/">
             <img src={vector} alt="logo" />
@@ -35,7 +36,7 @@ const Header = () => {
               <SheetTitle className='flex flex-col gap-6 justify-center items-center'>
                 <a className="font-bold" href={<About />}>About</a>
                 <a className="font-bold" href={<Services/>}>services</a>
-                <a className="font-bold" href={<Technologies />}>Technologies</a>
+                <a className="font-bold" href={<Technologies/>}>Technologies</a>
               </SheetTitle>
             </SheetHeader>
           </SheetContent>

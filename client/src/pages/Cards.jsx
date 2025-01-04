@@ -7,38 +7,38 @@ import { Button } from "@/components/ui/button";
 const Cards = () => {
   return (
     <>
-    <div className="flex flex-row md:flex-row sm:flex-col justify-between my-5 mx-4 ">
-      <div className="flex w-auto h-96 items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3 ">
+    <div className="flex flex-row md:flex-row sm:flex-col justify-between my-5 mx-4 outlinesContainer">
+      <div className="flex w-auto h-auto items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
         <img src={card1img} alt="cardImg" className="rounded-full h-32 w-32" />
         <h1 className="font-extrabold">SIMULATION</h1>
-        <p>
+        <p  className="text-center">
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
         <Button className="cardButton">Try it now</Button>
       </div>
-      <div className="flex w-auto h-96 items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
+      <div className="flex w-auto h-auto items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
         <img src={card2img} alt="cardImg" className="rounded-full h-32 w-32" />
         <h1 className="font-extrabold">EDUCATION</h1>
-        <p>
+        <p className="text-center">
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
         <Button className="cardButton">Try it now</Button>
       </div>
-      <div className="flex w-auto h-96 items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
+      <div className="flex w-auto h-auto items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
         <img src={card3img} alt="cardImg" className="rounded-full h-32 w-32" />
         <h1 className="font-extrabold">SELF-CARE</h1>
-        <p>
+        <p  className="text-center">
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>
         <Button className="cardButton">Try it now</Button>
       </div>
-      <div className="flex w-auto h-96 items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
+      <div className="flex w-auto h-auto items-center flex-col gap-3 bg-slate-400 py-5 rounded-3xl cursor-pointer cards my-3 mx-3">
         <img src={card4img} alt="cardImg" className="rounded-full h-32 w-32" />
         <h1 className="font-extrabold">OUTDOOR</h1>
-        <p>
+        <p className="text-center">
           Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
           porttitor rhoncus libero justo laoreet sit amet vitae.
         </p>

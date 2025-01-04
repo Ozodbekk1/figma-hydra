@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const About = () => {
   return (
     <section id="about">
-      <div className="flex mt-24 items-center justify-around">
+      <div className="flex mt-24 items-center justify-around outlinesContainer">
         <h1 className="text-[50px]">
           <span className="font-extrabold text-[50px]">Introduction</span>
           <br />
@@ -19,7 +19,7 @@ const About = () => {
           Lectus magna fringilla urna porttitor rhoncus vit
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center p-10">
+      <div className="flex flex-col md:flex-row items-center p-10 outlinesContainer">
       <div className="w-full md:w-1/2">
         <img
           src={aboutImg} 

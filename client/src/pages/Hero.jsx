@@ -16,7 +16,7 @@ import {
 const Hero = () => {
   return (
     <>
-      <div className="py-5 flex items-center justify-between justify-around sm:flex-col-reverse gap-0 md:flex-row leading-10">
+      <div className="py-5 flex items-center justify-between justify-around sm:flex-col-reverse gap-0 md:flex-row leading-10 outlinesContainer">
         <div className="">
           <h1 className="flex font-mono spanss flex-col ">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
@@ -91,7 +91,7 @@ const Hero = () => {
             </CarouselItem>
             <CarouselItem>
               <div className="flex sm:h-10 gap-2">
-                <img src={phoneIcon} alt="PhoneIcon" />
+                <img src={emailIcon} alt="PhoneIcon" />
                 <div className="flex flex-col justify-center">
                   <h1>Send Us a Message</h1>
                   <p>olimjonovozodbek16@gmail.com</p>
