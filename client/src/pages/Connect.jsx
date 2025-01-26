@@ -20,7 +20,7 @@ const Connect = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert("Form submitted successfully");
+      console.log("Form submitted successfully");
     }
   };
 
